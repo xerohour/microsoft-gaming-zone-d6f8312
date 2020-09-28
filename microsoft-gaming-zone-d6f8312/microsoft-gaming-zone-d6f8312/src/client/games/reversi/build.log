@@ -1,0 +1,16 @@
+BUILD: c:\ntkernelupdate-5.2-6.0\enduser\zone_internetgames\src\client\games\reversi\sources(0): Unknown TARGETPATH value
+BUILD: Examining c:\ntkernelupdate-5.2-6.0\enduser\zone_internetgames\src\client\games\reversi directory for files to compile.
+Compiling c:\ntkernelupdate-5.2-6.0\enduser\zone_internetgames\src\client\games\reversi directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+1>BUILDMSG: Processing c:\ntkernelupdate-5.2-6.0\enduser\zone_internetgames\src\client\games\reversi
+1>.\sources(9) :  U1052: file '\sources.zone' not found
+1>Stop.
+BUILD: nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1 failed - rc = 2
+Linking c:\ntkernelupdate-5.2-6.0\enduser\zone_internetgames\src\client\games\reversi directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1>.\sources(9) :  U1052: file '\sources.zone' not found
+1>Stop.
+BUILD: nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1 failed - rc = 2
+Executing post build scripts  ********************
+Checkout Public Changes
+'C:\NTKernelUpdate-5.2-6.0\tools\edit_public.cmd '

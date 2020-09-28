@@ -1,0 +1,36 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\reversi.res \
+    $(_OBJ_DIR)\i386\reversi.obj \
+    $(_OBJ_DIR)\i386\reverlib.obj \
+    $(_OBJ_DIR)\i386\revermov.obj \
+    $(_OBJ_DIR)\i386\init.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\reversi.res \
+    $(_OBJ_DIR)\ia64\reversi.obj \
+    $(_OBJ_DIR)\ia64\reverlib.obj \
+    $(_OBJ_DIR)\ia64\revermov.obj \
+    $(_OBJ_DIR)\ia64\init.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\reversi.res \
+    $(_OBJ_DIR)\amd64\reversi.obj \
+    $(_OBJ_DIR)\amd64\reverlib.obj \
+    $(_OBJ_DIR)\amd64\revermov.obj \
+    $(_OBJ_DIR)\amd64\init.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\reversi.res \
+    $(_OBJ_DIR)\arm\reversi.obj \
+    $(_OBJ_DIR)\arm\reverlib.obj \
+    $(_OBJ_DIR)\arm\revermov.obj \
+    $(_OBJ_DIR)\arm\init.obj
+
+PASS0_ARM_OBJECTS=
+
